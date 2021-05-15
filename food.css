@@ -1,0 +1,45 @@
+*{
+	scroll-behaviour: smooth;
+}
+
+body {
+	background: linear-gradient(90deg,lightsalmon,coral,lightgreen);
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 42px;
+}
+
+
+h2{
+   
+ 	background: linear-gradient(45deg,orange,yellow);
+	color: white;
+	padding: 15px;
+	border-radius: 50%;
+	margin: auto;
+	width: 800px;
+	box-shadow: 0 0 12px black;
+}
+
+table{
+	width: 100%;
+}
+
+
+img {
+	border-radius: 10px;
+	box-shadow: 0 0 10px black;	
+}
+
+img:hover{
+	transform:  scale(1.2);
+}
+
+img {
+	 transition: transform 0.3s ease;
+}
+
